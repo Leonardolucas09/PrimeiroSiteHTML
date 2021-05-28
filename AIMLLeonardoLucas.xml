@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8"?>
+
+<category>
+    <pattern> Olá </pattern>
+    <template> Olá, como posso te ajudar? </template>
+</category>
+
+<category>
+    <pattern> Em que ano estamos? </pattern>
+    <template> Estamos no ano de 2021. </template>
+</category>
+
+<category>
+    <pattern> Quais jogos da Steam você me recomenda? </pattern>
+    <template> Jogos que eu recomendo são Pathologic 2. A franquia de jogos Assassin's Creed, e o jogo Black Desert </template>
+</category>
+
+<category>
+    <pattern>Assassin's Creed</pattern>
+    <template> Assassin's Creed é uma série de jogos eletrônicos. A premissa central da história envolve-se a partir da rivalidade entre duas sociedades secretas ancestrais: os Assassinos, que desejam a paz através do livre arbítrio, e os Templários, que têm o objetivo de dominar o mundo e impor a ordem na humanidade.
+    <br/>
+    Para mais informações acesse o site: <a href="https://pt.wikipedia.org/wiki/Assassin%27s_Creed" target="_blank"> Assassin's Creed wikipedia </a> 
+    </template> 
+</category>
+
+<category>
+    <pattern> Pathologic 2 </pattern>
+    <template> Pathologic 2 é um jogo de aventura da Ice-Pick Lodge e publicado pela tinyBuild. Originalmente planejado como um remake do videogame Pathologic de 2005, foi criado para ser uma reimaginação completa do jogo original.
+    <br/>
+     <br/>
+    Para mais informações acesse o site: <a href="https://en.wikipedia.org/wiki/Pathologic_2" target="_blank"> Pathlogic 2 wikipedia </a> 
+    </template> 
+</category>
+
+<category>
+    <pattern> Black Desert Online </pattern>
+    <template> Black Desert é um RPG on-line que acontece em um mundo de fantasia. No início, o jogador escolhe uma das seguintes 20 classes de personagens: Lahn, Mística, Sagitário, Guerreiro, Ranger, Berserker, Mago Negro, Valquíria, Mágico, Tamer, Musa, Maehwa, Ninja, Kunoichi, Guardião da Lâmina Escura Hashahin e Campeão/Atacante. As aulas são de gênero e raça. 
+    <br/>
+    Para mais informações acesse o site: <a href="https://pt.wikipedia.org/wiki/Black_Desert_Online" target="_blank"> Black Desert Online wikipedia </a> 
+    </template> 
+</category>
+
+<category>
+        <pattern>Jogos Recomendados</pattern>
+        <template>
+            <srai>Quais jogos da Steam você me recomenda?</srai>
+        </template>
+</category>
+
+<category>
+        <pattern>Assassin's Creed</pattern>
+        <template>
+            <srai>Assassin's Creed</srai>
+        </template>
+</category>
+
+<category>
+        <pattern>AC</pattern>
+        <template>
+            <srai>Assassin's Creed</srai>
+        </template>
+</category>
+
+<category>
+        <pattern>Assassins Creed</pattern>
+        <template>
+            <srai>Assassin's Creed</srai>
+        </template>
+</category>
+
+
+<category>
+        <pattern>
+            Pathologic
+        </pattern>
+        <template>
+            <srai>Pathologic 2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>
+            Pathologic 2
+        </pattern>
+        <template>
+            <srai>Pathologic 2</srai>
+        </template>
+    </category>
+
+<category>
+        <pattern>
+            Pathologic Remake
+        </pattern>
+        <template>
+            <srai>Pathologic 2</srai>
+        </template>
+    </category>
+
+
+<category>
+        <pattern>
+            Black Desert Online
+        </pattern>
+        <template>
+            <srai>Black Desert Online</srai>
+        </template>
+    </category>
+
+<category>
+        <pattern>
+            BDO
+        </pattern>
+        <template>
+            <srai>Black Desert Online</srai>
+        </template>
+    </category>
+
+<category>
+        <pattern>
+            Black Desert
+        </pattern>
+        <template>
+            <srai>Black Desert Online</srai>
+        </template>
+    </category>
+
+
+</aiml>
